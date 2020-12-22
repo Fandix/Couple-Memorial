@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DateCounterComponent } from './toolkit/date-counter/date-counter.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DateCounterComponent
   ],
   imports: [
     BrowserModule,
